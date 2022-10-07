@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-weight: bold;
+    src: url(./fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-style: italic;
+    src: url(./fonts/Roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-weight: bold;
+    font-style: italic;
+    src: url(./fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+
+body {
+    font-family: 'roboto';
+}
+
+:root {
+    --primary-color: #109DEA;
+    --secondary-color: #04234E;
+    --tertiary-color: #EE88E4;
+    --text-color: #FFFFFF;
+}
+
+/* ----------- CODE BELOW -----------  */
+
+.navbar {
+
+    
+}
