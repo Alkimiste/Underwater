@@ -54,7 +54,7 @@ body {
 /* ----------- CODE BELOW -----------  */
 
 .navbar {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,43 +62,42 @@ body {
     height: 100px;
     background-color: #109DEA;
     padding: 0 20px;
-   
-    
+
+
 }
 
 .bot_left {
 
-   
-    color:#FFFFFF
 
+    color: #FFFFFF
 }
 
 .bot_right {
 
     display: flex;
     justify-content: center;
-    color:#FFFFFF
-
+    color: #FFFFFF
 }
 
-.bot_right a{
-    
-    display: flex;  
-    justify-content: center;    
+.bot_right a {
+
+    display: flex;
+    justify-content: center;
     align-items: center;
     width: 120px;
     height: 100px;
-    
+
 }
 
 .bot_right a:hover {
 
-    background-color: #04234E;
+    background-color: #EE88E4;
+    transition-duration: 0.3s;
 
 }
 
 .cover {
-    
+
     display: block;
     width: 100%;
     height: 650px;
@@ -107,8 +106,110 @@ body {
 
 .container1 {
 
-    width: 100%;
-    height: 550px;
-    background-color: #04234E;
 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 370px;
+    background-color: #04234E;
+    color: #FFFFFF;
+    padding: 20px;
+    gap: 20px;
+
+
+
+}
+
+.paragraphe {
+
+
+    width: 50%;
+}
+
+
+
+.paragraphe .h1 {
+
+    text-decoration: underline;
+
+
+}
+
+.image {
+
+    width: 50%;
+    height: 550px;
+
+
+}
+
+.container2 {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #109DEA;
+    color: #FFFFFF;
+    padding: 50px;
+    gap: 20px;
+}
+
+.leftcard {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+
+}
+
+.rigthcard {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+
+}
+
+.leftcard img {
+
+    display: block;
+    width: 50%;
+
+}
+
+.rigthcard img {
+
+    display: block;
+    width: 50%;
+}
+
+.leftcard .leftpara {
+
+    width: 50%;
+    padding-left: 20px;
+
+}
+
+.rigthcard .rigthpara {
+
+    width: 50%;
+    padding-left: 20px;
+}
+
+.leftpara button {
+
+    background-color: #04234E;
+    color: #FFFFFF;
+
+}
+
+.rigthpara button {
+
+    background-color: #04234E;
+    color: #FFFFFF;
 }
